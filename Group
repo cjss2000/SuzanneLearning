@@ -1,3 +1,14 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package group;
+
+/**
+ *
+ * @author cjss2
+ */
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Date;
@@ -21,6 +32,10 @@ public class Group {
         person5.job.jobSpecs();
         person4.job.addVacationDays(4);
         person4.job.jobSpecs();
+        
+        Person.startAPersonList(Person);
+        PersonList.addPerson(person1);
+        PersonList.addPerson(person2);
 
     //give everyone a job with salary, give everyone an age
         //make a scatter plot of salary vs age
